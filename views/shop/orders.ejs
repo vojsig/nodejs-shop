@@ -1,0 +1,45 @@
+<%- include('../includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+
+<body>
+    <%- include('../includes/navigation.ejs') %>
+
+    <main>
+        <% if (orders.length > 0) { %>
+            <div class="grid">
+                <% for (let order of orders) { %>
+                    <article class="card product-item">
+                        <header class="card__header">
+                            <h1 class="product__title"><%= order.number %></h1>
+                        </header>
+                        <% for (prod of order.productsData) { %>
+                            <div class="order__product">
+                                <h3 class = "order__product__name">
+                                    <%= prod.name %>(<%= prod.quantity %>)
+                                </h3>
+                                <h3 class="order__product__pcs">
+                                    $<%= prod.sum %>
+                                </h3>
+                            </div>
+                        <% } %>
+                        <div class="card__content">
+                            <h3 class="product__price">value: $<%= order.total %></h3>
+                            <p class="product__description"><%= order.status %></p>
+                        </div>
+                        <% if (order.shouldPayOff) { %>
+                            <div class="card__actions">
+                                <form action="/payoff" method = "post">
+                                    <button class = "btn" type = "submit">Pay off!</button>
+                                    <input type="hidden" name = "orderNumber" value = "<%= order.number %>">
+                                </form>
+                            </div>
+                        <% } %>
+                    </article>
+                <% } %>
+            </div>
+        <% } else { %>
+            <h1>No Orders Found!</h1>
+        <% } %>
+    </main>
+<%- include('../includes/end.ejs') %>

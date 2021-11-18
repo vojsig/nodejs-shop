@@ -1,0 +1,34 @@
+[
+  {
+    "title": "A Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book!",
+    "price": "19",
+    "bullshitInfo": "Nulla adipisicing in excepteur anim sint. Magna occaecat mollit et occaecat irure cupidatat quis sint qui incididunt exercitation enim. Incididunt ea non reprehenderit esse velit do officia veniam deserunt veniam. Deserunt commodo aute officia fugiat ullamco culpa et eiusmod mollit nulla.",
+    "id": "0.512321312"
+  },
+  {
+    "title": "test",
+    "imageUrl": "https://a.allegroimg.com/s512/0141bc/4c97705a41a2a83dffde9769f233/ksiazka-ROBIMY-WINO-DOBRE-I-DOMOWE-Ewa-Kwapisz-Waga-produktu-z-opakowaniem-jednostkowym-1-kg",
+    "description": "test",
+    "price": "2",
+    "bullshitInfo": "Nulla adipisicing in excepteur anim sint. Magna occaecat mollit et occaecat irure cupidatat quis sint qui incididunt exercitation enim. Incididunt ea non reprehenderit esse velit do officia veniam deserunt veniam. Deserunt commodo aute officia fugiat ullamco culpa et eiusmod mollit nulla.",
+    "id": "0.7985942645271125"
+  },
+  {
+    "title": "test",
+    "imageUrl": "https://a.allegroimg.com/s512/0141bc/4c97705a41a2a83dffde9769f233/ksiazka-ROBIMY-WINO-DOBRE-I-DOMOWE-Ewa-Kwapisz-Waga-produktu-z-opakowaniem-jednostkowym-1-kg",
+    "description": "xd",
+    "price": "1500",
+    "bullshitInfo": "Nulla adipisicing in excepteur anim sint. Magna occaecat mollit et occaecat irure cupidatat quis sint qui incididunt exercitation enim. Incididunt ea non reprehenderit esse velit do officia veniam deserunt veniam. Deserunt commodo aute officia fugiat ullamco culpa et eiusmod mollit nulla.",
+    "id": "0.8340602507745756"
+  },
+  {
+    "title": "aDUSIA PIPUSIA",
+    "imageUrl": "https://zielonyklub.pl/920-large_default/brzoskwinia-esencja-zapachowa.jpg",
+    "description": "Adipisicing consequat ex qui id nostrud ",
+    "price": "69",
+    "bullshitInfo": "\r\nMagna occaecat sunt ut eu qui dolore officia. Id ipsum excepteur sunt et fugiat minim ut fugiat. Dolor cillum minim nulla laboris commodo laborum reprehenderit eu dolor non voluptate aliqua. Mollit ut sit commodo duis velit Lorem labore anim id do reprehenderit minim. Qui laboris sit duis enim ut aute sit do excepteur cillum mollit commodo. Commodo aute in nostrud Lorem duis veniam enim officia deserunt incididunt. Dolor aute excepteur aliquip officia labore dolore cillum consectetur dolore.",
+    "id": "0.2680002629500271"
+  }
+]
